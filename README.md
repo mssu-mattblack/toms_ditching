@@ -1,7 +1,7 @@
 Tom’s Ditching & Backhoe Web Application
 //Project Description//
 
-This project is a full-stack web application for a local construction business, Tom’s Ditching & Backhoe Inc. The site presents company services, testimonials, contact information, and a responsive design for desktop and mobile users. It also includes an admin login system and dynamic business hours that can be updated through a database instead of editing HTML.
+This project is a full-stack web application for a local construction business, Tom’s Ditching & Backhoe Inc. The site presents company services, testimonials, contact information, and a responsive design. It also includes an admin login system and dynamic business hours that can be updated through a database instead of editing HTML.
 
 //Key Features//
 
