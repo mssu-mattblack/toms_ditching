@@ -1,0 +1,52 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helmet dome -->
+  <path
+    d="M22 62 C22 38 38 25 50 25 C62 25 78 38 78 62"
+    stroke="#155DFC"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Brim -->
+  <path
+    d="M15 62 H85"
+    stroke="#155DFC"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Center ridge -->
+  <path
+    d="M50 25 V45"
+    stroke="#155DFC"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <!-- Left ridge -->
+  <path
+    d="M36 30 C34 42 34 50 36 62"
+    stroke="#155DFC"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Right ridge -->
+  <path
+    d="M64 30 C66 42 66 50 64 62"
+    stroke="#155DFC"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Lower brim curve (adds depth) -->
+  <path
+    d="M20 62 C30 70 70 70 80 62"
+    stroke="#155DFC"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

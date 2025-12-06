@@ -1,0 +1,161 @@
+import imgImageWithFallback from "figma:asset/a7c2151fec52bcda656b5ab9c20c2f31b5e7777f.png";
+
+function Heading() {
+  return <div className="absolute h-[84px] left-0 top-0 w-[503px]" data-name="Heading 1" />;
+}
+
+function PrimitiveLabel() {
+  return (
+    <div className="content-stretch flex gap-[7px] h-[12.25px] items-center relative shrink-0 w-full" data-name="Primitive.label">
+      <p className="font-['Arimo:Regular',sans-serif] font-normal leading-[12.25px] relative shrink-0 text-[12.25px] text-neutral-950 text-nowrap whitespace-pre">Email</p>
+    </div>
+  );
+}
+
+function Input() {
+  return (
+    <div className="bg-[#f3f3f5] h-[31.5px] relative rounded-[6.75px] shrink-0 w-full" data-name="Input">
+      <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
+        <div className="box-border content-stretch flex h-[31.5px] items-center px-[10.5px] py-[3.5px] relative w-full">
+          <p className="font-['Arimo:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#717182] text-[12.25px] text-nowrap whitespace-pre">Enter your email</p>
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border-[0.8px] border-[rgba(0,0,0,0)] border-solid inset-0 pointer-events-none rounded-[6.75px]" />
+    </div>
+  );
+}
+
+function Container() {
+  return (
+    <div className="absolute content-stretch flex flex-col gap-[7px] h-[50.75px] items-start left-0 top-0 w-[315.863px]" data-name="Container">
+      <PrimitiveLabel />
+      <Input />
+    </div>
+  );
+}
+
+function Container1() {
+  return (
+    <div className="h-[50.75px] relative shrink-0 w-full" data-name="Container">
+      <Container />
+    </div>
+  );
+}
+
+function Frame() {
+  return (
+    <div className="relative shrink-0 size-[100px]">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border size-[100px]" />
+    </div>
+  );
+}
+
+function PrimitiveLabel1() {
+  return (
+    <div className="content-stretch flex gap-[7px] h-[12.25px] items-center relative shrink-0 w-full" data-name="Primitive.label">
+      <p className="font-['Arimo:Regular',sans-serif] font-normal leading-[12.25px] relative shrink-0 text-[12.25px] text-neutral-950 text-nowrap whitespace-pre">Password</p>
+      <Frame />
+    </div>
+  );
+}
+
+function Input1() {
+  return (
+    <div className="bg-[#f3f3f5] h-[31.5px] relative rounded-[6.75px] shrink-0 w-full" data-name="Input">
+      <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
+        <div className="box-border content-stretch flex h-[31.5px] items-center px-[10.5px] py-[3.5px] relative w-full">
+          <p className="font-['Arimo:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#717182] text-[12.25px] text-nowrap whitespace-pre">Enter your password</p>
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border-[0.8px] border-[rgba(0,0,0,0)] border-solid inset-0 pointer-events-none rounded-[6.75px]" />
+    </div>
+  );
+}
+
+function Container2() {
+  return (
+    <div className="absolute content-stretch flex flex-col gap-[7px] h-[50.75px] items-start left-0 top-0 w-[315.863px]" data-name="Container">
+      <PrimitiveLabel1 />
+      <Input1 />
+    </div>
+  );
+}
+
+function Container3() {
+  return (
+    <div className="h-[50.75px] relative shrink-0 w-full" data-name="Container">
+      <Container2 />
+    </div>
+  );
+}
+
+function Button() {
+  return (
+    <div className="bg-[#155dfc] h-[35px] relative rounded-[6.75px] shrink-0 w-[135.55px]" data-name="Button">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex gap-[7px] h-[35px] items-center justify-center px-[21px] py-0 relative w-[135.55px]">
+        <p className="font-['Arimo:Regular',sans-serif] font-normal leading-[17.5px] relative shrink-0 text-[12.25px] text-nowrap text-white whitespace-pre">Contact Us</p>
+      </div>
+    </div>
+  );
+}
+
+function Container4() {
+  return (
+    <div className="content-stretch flex gap-[14px] h-[35px] items-start relative shrink-0 w-[136px]" data-name="Container">
+      <Button />
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div className="absolute bottom-[-0.8px] content-stretch flex flex-col gap-[21px] h-[204px] items-start left-[21.2px] right-[21.2px]" data-name="Contact">
+      <Container1 />
+      <Container3 />
+      <Container4 />
+    </div>
+  );
+}
+
+function Card() {
+  return (
+    <div className="absolute bg-white border-[0.8px] border-[rgba(0,0,0,0.1)] border-solid inset-[16.39px_30px_16.61px_31px] rounded-[12.75px] shadow-[8px_7px_7.3px_0px_rgba(0,0,0,0.25)]" data-name="Card">
+      <Contact />
+      <p className="absolute font-['Arimo:Regular',sans-serif] font-normal h-[60px] leading-[42px] left-[21.2px] text-[#101828] text-[40px] top-[13.2px] w-[226px]">Admin Login</p>
+    </div>
+  );
+}
+
+function Container5() {
+  return (
+    <div className="absolute h-[322px] left-0 top-[5.61px] w-[503px]" data-name="Container">
+      <Heading />
+      <Card />
+    </div>
+  );
+}
+
+function ImageWithFallback() {
+  return <div className="absolute bg-repeat bg-size-[514px_514px] bg-top-left h-[333.238px] left-[545px] rounded-[8.75px] shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.1),0px_8px_10px_-6px_rgba(0,0,0,0.1)] top-0 w-[503px]" data-name="ImageWithFallback" style={{ backgroundImage: `url('${imgImageWithFallback}')` }} />;
+}
+
+function Container6() {
+  return (
+    <div className="h-[333.238px] relative shrink-0 w-full" data-name="Container">
+      <Container5 />
+      <ImageWithFallback />
+    </div>
+  );
+}
+
+export default function Hero() {
+  return (
+    <div className="bg-gradient-to-r from-[#eff6ff] relative size-full to-[#dbeafe]" data-name="Hero">
+      <div className="size-full">
+        <div className="box-border content-stretch flex flex-col items-start pb-0 pt-[70px] px-[28px] relative size-full">
+          <Container6 />
+        </div>
+      </div>
+    </div>
+  );
+}
